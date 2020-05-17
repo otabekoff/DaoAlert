@@ -1,0 +1,36 @@
+{
+    "private": false,
+    "name": "@dao-vue/alert",
+    "version": "0.0.1",
+    "description": "A reusable, free alert components set for VueJS.",
+    "main": "./dist/index.js",
+    "scripts": {
+        "test": "vue server src/DaoAlert.vue",
+        "build": "bili --name index --plugin vue --vue.css false"
+    },
+    "files": [
+        "dist/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OtabekSadiridinov/DaoAlert.git"
+    },
+    "keywords": [
+        "Alert",
+        "DaoAlert",
+        "@dao",
+        "@dao-alert",
+        "vuejs-alert"
+    ],
+    "author": "Otabek Sadiridinov",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/OtabekSadiridinov/DaoAlert/issues"
+    },
+    "homepage": "https://github.com/OtabekSadiridinov/DaoAlert#readme",
+    "devDependencies": {
+        "bili": "^4.10.0",
+        "rollup-plugin-vue": "^5.1.7",
+        "vue-template-compiler": "^2.6.11"
+    }
+}
